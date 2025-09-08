@@ -215,7 +215,7 @@ function showDetail(bookId) {
             background: white;
             border-radius: 20px;
             padding: 2rem;
-            max-width: 500px;
+            max-width: 800px;
             max-height: 80vh;
             overflow-y: auto;
             margin: 1rem;
@@ -245,7 +245,6 @@ function showDetail(bookId) {
             <p style="color: #666; margin-bottom: 1rem;"><strong>Halaman:</strong> ${book.pages}</p>
             <p style="color: #666; margin-bottom: 1rem;"><strong>ISBN:</strong> ${book.isbn}</p>
             <p style="color: #666; margin-bottom: 1rem;"><strong>Rating:</strong> ⭐ ${book.rating}/5</p>
-            <p style="color: #666; margin-bottom: 1rem;"><strong>Stok:</strong> ${book.stock > 0 ? `✅ ${book.stock} tersedia` : '❌ Stok habis'}</p>
             
             <div style="margin: 1.5rem 0;">
                 <h3 style="color: #333; margin-bottom: 0.5rem;">Deskripsi:</h3>
