@@ -1,0 +1,87 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Teknik Utama Penyiapan Data untuk Data Scientist Menggunakan R",
+      "author": "Bagus Sartono, Aep Hidayatuloh, Dewi Kiswani Bodro, Irawati Tamara",
+      "category": "tutorial",
+      "price": "Rp 135.000",
+      "originalPrice": "Rp 150.000",
+      "discount": "10%",
+      "image": "images/teknik-utama-penyiapan-data.png",
+      "link": "https://ipbpress.com/product/1893-teknik-utama-penyiapan-data-untuk-data-scientist-menggunakan-r",
+      "short_description": "Penyiapan data berkontribusi besar dalam memperoleh insight terbaik hasil analisis data. Namun, tidak sedikit tantangan dalam proses penyiapan data ini —mulai dari menangani data yang tidak lengkap, mengatasi data anomali, hingga mengoptimalkan struktur dataset agar siap diproses lebih lanjut.",
+      "description": "Penyiapan data berkontribusi besar dalam memperoleh insight terbaik hasil analisis data. Namun, tidak sedikit tantangan dalam proses penyiapan data ini —mulai dari menangani data yang tidak lengkap, mengatasi data anomali, hingga mengoptimalkan struktur dataset agar siap diproses lebih lanjut.<br/><br/>Dengan pendekatan berbasis contoh nyata, dalam buku ini Anda akan belajar:<br/><br/>✅ menggunakan R dan RStudio<br/>✅ memahami strategi penyiapan data<br/>✅ bekerja dengan berbagai format data (CSV, Excel, database)<br/>✅ membersihkan dan menangani missing values, duplikasi, serta data tak konsisten<br/>✅ mentransformasi data secara kreatif<br/>✅ bekerja dengan banyak dataset<br/><br/>Ilustrasi dan penjelasan lengkap dalam buku sangat cocok bagi analis data, data scientist, dan siapa saja yang ingin meningkatkan keterampilan penyiapan data.",
+      "isbn": "978-0735211292",
+      "pages": 320,
+      "publisher": "IPB Press",
+      "year": 2025,
+      "rating": 4.9,
+      "stock": 15,
+      "bestseller": false,
+      "new": true
+    },
+    {
+      "id": 2,
+      "title": "Visualisasi Data yang Efektif",
+      "author": "Bagus Sartono, Aep Hidayatuloh",
+      "category": "finance",
+      "price": "Rp 162.000",
+      "originalPrice": "Rp 200.000",
+      "discount": "19%",
+      "image": "images/visualisasi-data-yang-efektif.png",
+      "link": "https://ipbpress.com/product/663-visualisasi-data-yang-efektif",
+      "short_description": "Kemampuan menyajikan informasi dan insight hasil analisis data adalah kompetensi penting pada era kini dan masa depan. Teknik visualisasi data yang efektif akan memberikan dampak signifikan pada keberhasilan komunikasi dengan target audiens.",
+      "description": "Kemampuan menyajikan informasi dan insight hasil analisis data adalah kompetensi penting pada era kini dan masa depan. Teknik visualisasi data yang efektif akan memberikan dampak signifikan pada keberhasilan komunikasi dengan target audiens. Tidak hanya mempermudah pengenalan pola pada data, visualisasi data juga dapat memperkuat pesan yang ingin disampaikan.<br/><br/>Buku ini membahas berbagai cara visualisasi data yang disesuaikan dengan tujuan dan ketersediaan data, serta memberikan beberapa hal esensial dalam menyiapkan bahan visualisasi data.",
+      "isbn": "978-0857197689",
+      "pages": 256,
+      "publisher": "IPB Press",
+      "year": 2021,
+      "rating": 4.9,
+      "stock": 8,
+      "bestseller": true,
+      "new": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "Semua Buku",
+      "icon": "📖"
+    },
+    {
+      "id": "bestseller",
+      "name": "Best Seller",
+      "icon": "🔥"
+    },
+    {
+      "id": "self-development",
+      "name": "Self Development",
+      "icon": "💡"
+    },
+    {
+      "id": "finance",
+      "name": "Keuangan",
+      "icon": "💰"
+    },
+    {
+      "id": "history",
+      "name": "Sejarah",
+      "icon": "📜"
+    }
+  ],
+  "store_info": {
+    "name": "Galeri Buku Saya",
+    "description": "Temukan koleksi buku cetak terbaik dengan kualitas premium dan harga terjangkau",
+    "contact": {
+      "whatsapp": "+62 812-3456-7890",
+      "email": "info@galeribuku.com",
+      "address": "Jakarta, Indonesia"
+    },
+    "social_media": {
+      "instagram": "@galeribukupremium",
+      "facebook": "Galeri Buku Premium",
+      "twitter": "@galeribuku"
+    }
+  }
+}
