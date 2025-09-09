@@ -157,17 +157,20 @@ function renderBooks(books) {
         bookCard.className = 'book-card';
         bookCard.style.animationDelay = `${index * 0.1}s`;
         
-        // Create badges
-        const badges = [];
-        if (book.discount) {
-            badges.push(`<div class="discount-badge">-${book.discount}</div>`);
-        }
+        // Create status badges
+        const statusBadges = [];
         if (book.bestseller) {
-            badges.push(`<div class="bestseller-badge">🔥 BESTSELLER</div>`);
+            statusBadges.push(`<div class="bestseller-badge">🔥 BESTSELLER</div>`);
         }
         if (book.new) {
-            badges.push(`<div class="new-badge">✨ BARU</div>`);
+            statusBadges.push(`<div class="new-badge">✨ BARU</div>`);
         }
+        
+        // Create price section with discount badge
+        const discountBadge = book.discount ? 
+            `<div class="discount-badge">-${book.discount}</div>` : '';
+        const originalPrice = book.originalPrice ? 
+            `<span class="original-price">${book.originalPrice}</span>` : '';
         
         // Create stock status
         const stockStatus = book.stock > 0 ? 
@@ -175,7 +178,7 @@ function renderBooks(books) {
             `style="opacity: 0.5; pointer-events: none;"`;
         
         bookCard.innerHTML = `
-            ${badges.join('')}
+            ${statusBadges.join('')}
             <div class="top-section">
                 <div class="image-area">
                     <img src="${book.image}" alt="Sampul buku ${book.title}" loading="lazy" onerror="handleImageError(this)">
@@ -185,7 +188,8 @@ function renderBooks(books) {
                     <p class="author">oleh ${book.author}</p>
                     <div class="price-container">
                         <span class="price">${book.price}</span>
-                        ${book.originalPrice ? `<span class="original-price">${book.originalPrice}</span>` : ''}
+                        ${originalPrice}
+                        ${discountBadge}
                     </div>
                     <div class="button-group-top">
                         <a href="${book.link}" class="btn buy-button-top" target="_blank" ${stockStatus}>
@@ -227,6 +231,9 @@ function showDetail(bookId) {
     
     const modal = document.createElement('div');
     modal.className = 'modal-overlay';
+    
+    const discountInfo = book.discount ? 
+        `<p style="color: #ff4757; margin-bottom: 0.5rem; font-weight: 600;"><strong>Diskon:</strong> ${book.discount}</p>` : '';
     
     modal.innerHTML = `
         <div class="modal-content">
