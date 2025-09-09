@@ -258,7 +258,7 @@ main {
 }
 
 .buy-button-top {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #fad60eff, #ffaf02ff);
     color: white;
 }
 
@@ -570,7 +570,7 @@ footer {
 /* Large desktop responsive (min-width: 1024px) */
 @media (min-width: 1024px) {
     #book-gallery {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
     
