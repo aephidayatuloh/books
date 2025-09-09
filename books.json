@@ -60,7 +60,7 @@
       "year": 2020,
       "rating": 4.9,
       "stock": 8,
-      "bestseller": true,
+      "bestseller": false,
       "new": false
     },
     {
@@ -81,7 +81,7 @@
       "year": 2024,
       "rating": 4.9,
       "stock": 8,
-      "bestseller": true,
+      "bestseller": false,
       "new": false
     },
     {
@@ -102,7 +102,7 @@
       "year": 2023,
       "rating": 4.9,
       "stock": 8,
-      "bestseller": true,
+      "bestseller": false,
       "new": false
     }
   ],
