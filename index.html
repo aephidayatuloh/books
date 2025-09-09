@@ -2,9 +2,10 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Galeri Buku Cetak - Koleksi Terlengkap</title>
     <meta name="description" content="Temukan koleksi buku cetak terbaik dengan harga terjangkau. Pengiriman cepat ke seluruh Indonesia.">
+    <meta name="theme-color" content="#667eea">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,28 +13,30 @@
 </head>
 <body>
     <header>
-        <h1>Galeri Buku Saya</h1>
-        <!-- <p>Temukan koleksi buku cetak terbaik dengan kualitas premium dan harga terjangkau</p> -->
+        <h1>📚 Galeri Buku Saya</h1>
     </header>
 
-    <!-- <nav>
-        <div class="nav-container">
-            <a href="#" class="nav-item">📖 Semua Buku</a>
-            <a href="#" class="nav-item">🔥 Best Seller</a>
-            <a href="#" class="nav-item">💡 Self Development</a>
-            <a href="#" class="nav-item">📞 Kontak</a>
+    <nav>
+        <div class="nav-container" id="nav-container">
+            <a href="#" class="nav-item active" data-category="all">📖 Semua</a>
+            <a href="#" class="nav-item" data-category="bestseller">🔥 Bestseller</a>
+            <a href="#" class="nav-item" data-category="new">✨ Terbaru</a>
+            <a href="#" class="nav-item" data-category="tutorial">💡 Tutorial</a>
+            <a href="#" class="nav-item" data-category="machine learning">🤖 ML</a>
+            <a href="#" class="nav-item" data-category="contact">📞 Kontak</a>
         </div>
-    </nav> -->
+    </nav>
 
     <main>
         <div id="book-gallery" class="loading">
-            <div>Memuat koleksi buku...</div>
+            <div>📚 Memuat koleksi buku terbaik...</div>
         </div>
     </main>
 
     <footer>
         <p>&copy; 2025 Galeri Buku Saya. Semua Hak Cipta Dilindungi.</p>
-        <p>📞 WhatsApp: +62 812-1022-8688 | 📧 Email: aephidayatuloh.mail@gmail.com</p>
+        <p>📞 WhatsApp: +62 812-1022-8688</p>
+        <p>📧 Email: aephidayatuloh.mail@gmail.com</p>
     </footer>
 
     <script src="script.js"></script>

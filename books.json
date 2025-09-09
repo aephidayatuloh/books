@@ -10,8 +10,8 @@
       "discount": "10%",
       "image": "images/teknik-utama-penyiapan-data.png",
       "link": "https://ipbpress.com/product/1893-teknik-utama-penyiapan-data-untuk-data-scientist-menggunakan-r",
-      "short_description": "Penyiapan data berkontribusi besar dalam memperoleh insight terbaik hasil analisis data. Namun, tidak sedikit tantangan dalam proses penyiapan data ini —mulai dari menangani data yang tidak lengkap, mengatasi data anomali, hingga mengoptimalkan struktur dataset agar siap diproses lebih lanjut.",
-      "description": "Penyiapan data berkontribusi besar dalam memperoleh insight terbaik hasil analisis data. Namun, tidak sedikit tantangan dalam proses penyiapan data ini —mulai dari menangani data yang tidak lengkap, mengatasi data anomali, hingga mengoptimalkan struktur dataset agar siap diproses lebih lanjut.<br/><br/>Dengan pendekatan berbasis contoh nyata, dalam buku ini Anda akan belajar:<br/><br/>✅ menggunakan R dan RStudio<br/>✅ memahami strategi penyiapan data<br/>✅ bekerja dengan berbagai format data (CSV, Excel, database)<br/>✅ membersihkan dan menangani missing values, duplikasi, serta data tak konsisten<br/>✅ mentransformasi data secara kreatif<br/>✅ bekerja dengan banyak dataset<br/><br/>Ilustrasi dan penjelasan lengkap dalam buku sangat cocok bagi analis data, data scientist, dan siapa saja yang ingin meningkatkan keterampilan penyiapan data.",
+      "short_description": "Penyiapan data berkontribusi besar dalam memperoleh insight terbaik hasil analisis data. Namun, tidak sedikit tantangan dalam proses penyiapan data ini — mulai dari menangani data yang tidak lengkap, mengatasi data anomali, hingga mengoptimalkan struktur dataset agar siap diproses lebih lanjut.",
+      "description": "Penyiapan data berkontribusi besar dalam memperoleh insight terbaik hasil analisis data. Namun, tidak sedikit tantangan dalam proses penyiapan data ini — mulai dari menangani data yang tidak lengkap, mengatasi data anomali, hingga mengoptimalkan struktur dataset agar siap diproses lebih lanjut.<br/><br/>Dengan pendekatan berbasis contoh nyata, dalam buku ini Anda akan belajar:<br/><br/>✅ menggunakan R dan RStudio<br/>✅ memahami strategi penyiapan data<br/>✅ bekerja dengan berbagai format data (CSV, Excel, database)<br/>✅ membersihkan dan menangani missing values, duplikasi, serta data tak konsisten<br/>✅ mentransformasi data secara kreatif<br/>✅ bekerja dengan banyak dataset<br/><br/>Ilustrasi dan penjelasan lengkap dalam buku sangat cocok bagi analis data, data scientist, dan siapa saja yang ingin meningkatkan keterampilan penyiapan data.",
       "isbn": "978-0735211292",
       "pages": 260,
       "publisher": "IPB Press",
@@ -22,7 +22,7 @@
       "new": true
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Visualisasi Data yang Efektif",
       "author": "Bagus Sartono, Aep Hidayatuloh",
       "category": "finance",
@@ -43,7 +43,7 @@
       "new": false
     },
     {
-      "id": 5,
+      "id": 3,
       "title": "Teknik Eksplorasi Data yang harus dikuasai data scientist",
       "author": "Bagus Sartono, Gerry Alfa D, Dewi Kiswani Bodro",
       "category": "eksplorasi data",
@@ -64,7 +64,7 @@
       "new": false
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Seleksi Variabel pada Pemodelan Prediktif Statistika dan Machine Learning",
       "author": "Bagus Sartono, Alfian Futuhul Hadi, Evi Ramadhani, Akbar Rizki",
       "category": "machine learning",
@@ -73,8 +73,8 @@
       "discount": "29%",
       "image": "images/seleksi-variabel.png",
       "link": "https://ipbpress.com/product/1588-seleksi-variabel-pada-pemodelan-prediktif-statistika-dan-machine-learning",
-      "short_description": "Penulis : Alfian Futuhul Hadi, Evi Ramadhani, Akbar Rizki<br/>Sistematika dari buku ini diawali dengan memberikan gambaran umum mengenai proses pemodelan dan seleksi variabel, serta beberapa algoritma pemodelan regresi dan klasifikasi. ",
-      "description": "Penulis : Alfian Futuhul Hadi, Evi Ramadhani, Akbar Rizki<br/>Sistematika dari buku ini diawali dengan memberikan gambaran umum mengenai proses pemodelan dan seleksi variabel, serta beberapa algoritma pemodelan regresi dan klasifikasi. Kemudian secara berurutan dibahas berbagai metode seleksi variabel yang terkategori pada pendekatan secara penyaringan (filtering), wrapper, dan embedded. Buku ini ditutup dengan alternatif lain dalam seleksi variabel menggunakan analisis tingkat kepentingan variabel terutama pada pemodelan machine learning.",
+      "short_description": "Sistematika dari buku ini diawali dengan memberikan gambaran umum mengenai proses pemodelan dan seleksi variabel, serta beberapa algoritma pemodelan regresi dan klasifikasi.",
+      "description": "Sistematika dari buku ini diawali dengan memberikan gambaran umum mengenai proses pemodelan dan seleksi variabel, serta beberapa algoritma pemodelan regresi dan klasifikasi. Kemudian secara berurutan dibahas berbagai metode seleksi variabel yang terkategori pada pendekatan secara penyaringan (filtering), wrapper, dan embedded. Buku ini ditutup dengan alternatif lain dalam seleksi variabel menggunakan analisis tingkat kepentingan variabel terutama pada pemodelan machine learning.",
       "isbn": "978-0857197689",
       "pages": 174,
       "publisher": "IPB Press",
@@ -85,7 +85,7 @@
       "new": false
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Pemodelan Prediktif Berbasis Pohon Klasifikasi",
       "author": "Bagus Sartono, Hendra Dharmawan",
       "category": "machine learning",
@@ -94,7 +94,7 @@
       "discount": "17%",
       "image": "images/pohon-klasifikasi.png",
       "link": "https://ipbpress.com/product/1016-pemodelan-prediktif-berbasis-pohon-klasifikasi",
-      "short_description": "Buku ini disusun untuk membekali para data scientist dan data analyst dengan konsep-konsep dasar pemodelan berbasis pohon, disertai pengembangan lanjutannya. ",
+      "short_description": "Buku ini disusun untuk membekali para data scientist dan data analyst dengan konsep-konsep dasar pemodelan berbasis pohon, disertai pengembangan lanjutannya.",
       "description": "Buku ini disusun untuk membekali para data scientist dan data analyst dengan konsep-konsep dasar pemodelan berbasis pohon, disertai pengembangan lanjutannya. Beberapa algoritma yang tergolong teknik ensemble seperti random forest dan boosting dibahas secara lengkap sehingga pembaca diharapkan dapat memahami cara kerjanya. Selain itu, buku ini juga dapat menjadi rujukan bagi mahasiswa tingkat sarjana dan magister bidang statistika, sains data, atau informatika yang mengambil mata kuliah terkait pemodelan statistika dan machine learning.",
       "isbn": "978-0857197689",
       "pages": 190,
@@ -118,9 +118,19 @@
       "icon": "🔥"
     },
     {
-      "id": "self-development",
-      "name": "Self Development",
+      "id": "new",
+      "name": "Terbaru",
+      "icon": "✨"
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial",
       "icon": "💡"
+    },
+    {
+      "id": "machine learning",
+      "name": "Machine Learning",
+      "icon": "🤖"
     },
     {
       "id": "finance",
@@ -128,23 +138,29 @@
       "icon": "💰"
     },
     {
-      "id": "history",
-      "name": "Sejarah",
-      "icon": "📜"
+      "id": "eksplorasi data",
+      "name": "Eksplorasi Data",
+      "icon": "📊"
     }
   ],
   "store_info": {
     "name": "Galeri Buku Saya",
     "description": "Temukan koleksi buku cetak terbaik dengan kualitas premium dan harga terjangkau",
     "contact": {
-      "whatsapp": "+62 812-3456-7890",
-      "email": "info@galeribuku.com",
+      "whatsapp": "+62 812-1022-8688",
+      "email": "aephidayatuloh.mail@gmail.com",
       "address": "Jakarta, Indonesia"
     },
     "social_media": {
       "instagram": "@galeribukupremium",
       "facebook": "Galeri Buku Premium",
       "twitter": "@galeribuku"
+    },
+    "shipping_info": {
+      "free_shipping_threshold": "Rp 200.000",
+      "delivery_time": "2-5 hari kerja",
+      "coverage": "Seluruh Indonesia",
+      "packaging": "Kemasan aman dan rapi"
     }
   }
 }
